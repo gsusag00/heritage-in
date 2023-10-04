@@ -1,10 +1,10 @@
 {
     "meta": {
-        "app_id": "org.example.same.identifier.manifest.package",
-        "app_title": "City Street Heritage",
+        "app_id": "org.uniovi.es.statues.oviedo",
+        "app_title": "Statues of Oviedo",
         "version": 1,
-        "updated": "2022-09-26",
-        "source_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/data.json",
+        "updated": "2023-10-04",
+        "source_url": "https://github.com/gsusag00/heritage-in/sample/data.json",
         "matomo_base_url": "https://matomo.pbest.me/matomo.php?idsite=1&rec=1",        
         "marketplace_url": ""
     },
@@ -15,45 +15,59 @@
                     "brand": "#B11623",
                     "complementary": "#FAFAFA"
                 },
-                "repository_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/tree/main/docs/country/city",
+                "repository_url": "https://github.com/gsusag00/heritage-in",
                 "text_info": "This app is created by locals and experts. As you can see, it's also free of charge. Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures.",
                 "text_acknowledge": "This quick app is an open-source project powered by open data and enriched by the community. Most of the information was extracted from Wikidata, OpenStreetMaps, and other public sources. You can find inaccuracies, so we apologize in advance.",
                 "text_feedback": "Please let us know if you want to contribute with your experience, enrich the content, correct inaccuracies, or submit pictures. This app is created by locals and experts.",
                 "feedback_url": "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/#get-involved",
-                "issue_url": "https://github.com/ow2-quick-app-initiative/poi-quick-app/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
+                "issue_url": "https://github.com/gsusag00/heritage-in/issues/new?labels=country/city&template=update_request.md&title=Update+Request"
             },
             "pois": [{
-                    "id": "uniqueID",
-                    "lat": "50.8789629",
-                    "lon": "4.7013242",
+                    "id": "0",
+                    "lat": "43.361926445280275",
+                    "lon": "-5.848157408134666",
                     "type": "statue",
-                    "name": "My Statue",
+                    "name": "La encarna con chiquillin",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID_2.jpg"
+                        "https://guiadeasturias.com/wp-content/uploads/2016/09/27721840441_1d4917fa51_b.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "A bronce statue, made by Sebastian Miranda in 1955. It's a modern copy that was made part of the Oviedo Townhall once the right for this statue were paid for",
+                    "more": "The copy is of the same size as the original, it's a homage to maternity",
                     "urls": [
-                        "https://nl.wikipedia.org/wiki/De_Kotmadam_(Leuven)",
-                        "https://example.org/mypoi"
+                        "https://es.wikipedia.org/wiki/La_Encarna_con_chiquil%C3%ADn",
+                        "https://guiadeasturias.com/lugar/ruta-oviedo-mas-escultural-32-figuras-te-dejaran-piedra-reto-una-foto-lugar/"
                     ]
                 },
                 {
-                    "id": "uniqueID-2",
-                    "lat": "50.9",
-                    "lon": "4.8",
+                    "id": "1",
+                    "lat": "43.36218584591734",
+                    "lon": "-5.8491971525884745",
                     "type": "statue",
-                    "name": "My Statue",
+                    "name": "La torera",
                     "images": [
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_1.jpg",
-                        "https://ow2-quick-app-initiative.github.io/poi-quick-app/sample/images/uniqueID2_2.jpg"
+                        "https://guiadeasturias.com/wp-content/uploads/2016/12/torera.jpg"
                     ],
-                    "description": "One-paragraph description",
-                    "more": "More description, if you want",
+                    "description": "The sculpture, made of bronze, is the work of Mauro Álvarez Fernández, and is dated 2002. The statue, realistic in style and life-size, is a tribute to Josefa Carril, a popular photographer who lived in Oviedo and worked together with her husband, Antonio Hernández, photographing the bourgeoisie of the time in this park, in the same place where the monument has been placed.",
+                    "more": "The sculptural group is made up of Josefa (who is smiling, and one of her arms is inserted into the black sleeve where she was manipulated in the mini-laboratory), along with her camera (known as a “minute camera”) and the tripod (of the which hangs a bucket of water), a chair and a horse (which refers to the cardboard horse that served to keep children distracted when he made their portrait). The name “bullfighter” comes from the type of footwear that this photographer always wore, 'Manoletinas'.",
                     "urls": [
-                        "https://nl.wikipedia.org/MyPoi",
-                        "https://example.org/mypoi"
+                        "https://es.wikipedia.org/wiki/La_Torera",
+                        "https://guiadeasturias.com/lugar/ruta-oviedo-mas-escultural-32-figuras-te-dejaran-piedra-reto-una-foto-lugar/"
+                    ]
+                },
+                {
+                    "id": "2",
+                    "lat": "43.3624815442059",
+                    "lon": "-5.852835119753962",
+                    "type": "statue",
+                    "name": "Torso de Fruela I 'Berrocal'",
+                    "images": [
+                        "https://guiadeasturias.com/wp-content/uploads/2016/12/Torso_Fruela.jpg"
+                    ],
+                    "description": "The sculpture, made of bronze, is the work of Miguel Berrocal, and is dated 1998. The work is a tribute to King Fruela I (757-768). It is representative of the so-called “detachable sculpture”, since it is made up of various pieces that fit and assemble perfectly.",
+                    "more": "",
+                    "urls": [
+                        "https://es.wikipedia.org/wiki/Torso_de_Fruela_I",
+                        "https://guiadeasturias.com/lugar/ruta-oviedo-mas-escultural-32-figuras-te-dejaran-piedra-reto-una-foto-lugar/"
                     ]
                 }
             ]
